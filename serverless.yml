@@ -1,4 +1,4 @@
-service: service
+service: myservice
 provider:
   name: aws
   runtime: python3.8
@@ -6,4 +6,4 @@ provider:
   region: ap-south-1
 functions:
   hello:
-    handler: handler.hello  # Modify this to your Python file and function
+    handler: handler.main  # Modify this to your Python file and function
