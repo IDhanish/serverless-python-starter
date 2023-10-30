@@ -3,7 +3,7 @@ provider:
   name: aws
   runtime: python3.8
   stage: dev
-  region: us-east-1
+  region: ap-south-1
 functions:
   hello:
     handler: handler.hello  # Modify this to your Python file and function
