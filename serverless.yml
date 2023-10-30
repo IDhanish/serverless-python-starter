@@ -1,22 +1,9 @@
-service: serverless-stack-python-starter
-
-plugins:
-  - serverless-python-requirements
-
-custom:
-  pythonRequirements:
-    dockerizePip: false
-
+service: your-service-name
 provider:
   name: aws
-  runtime: python3.6
+  runtime: python3.8
   stage: dev
   region: us-east-1
-
 functions:
   hello:
-    handler: handler.hello
-    events:
-      - http:
-          path: /
-          method: get
+    handler: handler.hello  # Modify this to your Python file and function
