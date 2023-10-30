@@ -1,4 +1,4 @@
-service: your-service-name
+service: myservice
 provider:
   name: aws
   runtime: python3.8
