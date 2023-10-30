@@ -6,4 +6,4 @@ provider:
   region: ap-south-1
 functions:
   hello:
-    handler: handler.main  # Modify this to your Python file and function
+    handler: handler.hello  # Modify this to your Python file and function
